@@ -1,0 +1,117 @@
+<html>
+   <head>
+       <title> Imagenes en HTML </title>
+       <link rel="stylesheet" href="../css/style.css" type="text/css">
+       <style type="text/css">
+           #filter-gray{
+               filter: grayscale(100%);
+           }
+           #filter-sepia{
+               filter: sepia(100%);
+           }
+           
+           #filter-brillo{
+               filter: brightness(150%);
+           }
+           #filter-contraste{
+               filter: contrast(120%);
+           }
+           #filter-blur{
+               filter: blur(5px);
+           }
+           #filter-negativo{
+               filter: invert(100%);
+           }
+           #filter-saturacion{
+               filter: saturate(180%);
+           }
+           #filter-opacidad{
+               filter: opacity(60%)
+           }
+           #filter-sombra{
+               filter: drop-shadow(5px 5px 8px black);
+           }
+           #filter-huerotate{
+               filter: hue-rotate(320deg);
+           }
+           .filtros{
+               filter:saturate(200%) drop-shadow(5px 5px 8px deeppink);
+           }
+           #filter-expocision{
+               filter: brightness(100%) contrast(150%) grayscale(75%);
+           }
+           .filtros-color{
+               filter: hue-rotate(260deg) blur(2px) saturate(120%);
+           }
+           #img-enlace{ 
+               width:32px;
+               height: auto;
+           }
+           nav img{
+               float: left;
+               margin-top: 5px;
+           }
+       </style>
+</head>
+<body>
+<header>
+    <h1>IMAGENES</h1>
+</header>
+<nav>
+  <a href="../index.html"><img style="width: 30px" src="../imagenes/pagina-de-inicio.png"></a>
+   <ul>
+    <li><a href="">Formatos</a></li>
+            <li><a href="listas.html">Listas</a></li>
+            <li><a href="enlaces.html">Enlaces</a></li>
+            <li><a href="tablas.html">Tablas</a></li>
+            <li><a href="imagenes.html">Imagenes</a></li>
+            <li><a href="audio.html">Audio</a></li>
+            <li><a href="video.html">Video</a></li>
+            <li><a href="formularios.html">Formularios</a></li>
+    </ul>
+</nav>
+<main>
+    <section>
+        <h2>IMAGENES SIMPLES</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut viverra, mauris a pharetra volutpat, tellus urna gravida nulla, et volutpat nunc erat non orci. Praesent iaculis massa quis congue pharetra. Integer vehicula ultrices elementum. Sed lectus sapien, lobortis sed malesuada ut, vestibulum a dolor. Phasellus diam felis, laoreet vitae est sed, rutrum tincidunt sem. Proin id finibus justo, non consectetur lorem. Pellentesque scelerisque dignissim odio, congue sollicitudin est mattis ac. Vestibulum a dolor lacinia, convallis quam nec, pellentesque tortor. Duis at ipsum lacinia, tempor mi ut, consequat nulla. Donec sagittis felis ac libero laoreet pretium. Sed sit amet quam ipsum.</p>
+        <img src="../imagenes/dmitry-mashkin-bL3FNCKADKI-unsplash.jpg" alt="flor rosa" type="imagen/jpg">
+    </section>
+    <section>
+        <h2>IMAGENES ANIMADA</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut viverra, mauris a pharetra volutpat, tellus urna gravida nulla, et volutpat nunc erat non orci. Praesent iaculis massa quis congue pharetra. Integer vehicula ultrices elementum. Sed lectus sapien, lobortis sed malesuada ut, vestibulum a dolor. Phasellus diam felis, laoreet vitae est sed, rutrum tincidunt sem. Proin id finibus justo, non consectetur lorem. Pellentesque scelerisque dignissim odio, congue sollicitudin est mattis ac. Vestibulum a dolor lacinia, convallis quam nec, pellentesque tortor. Duis at ipsum lacinia, tempor mi ut, consequat nulla. Donec sagittis felis ac libero laoreet pretium. Sed sit amet quam ipsum</p>
+         <img id="img-border-redondo"src="../imagenes/Spring%20Flower%20GIF.gif" alt="ramo" type="imagen/gif">
+    </section>
+    <section>
+        <h2>IMAGENES FLOTANTES</h2>
+        <p><img class="img_flotante"src="../imagenes/watercolor-4358965_1280.png" alt="peonia" type="imagen/png">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut viverra, mauris a pharetra volutpat, tellus urna gravida nulla, et volutpat nunc erat non orci. Praesent iaculis massa quis congue pharetra. Integer vehicula ultrices elementum. Sed lectus sapien, lobortis sed malesuada ut, vestibulum a dolor. Phasellus diam felis, laoreet vitae est sed, rutrum tincidunt sem. Proin id finibus justo, non consectetur lorem. Pellentesque scelerisque dignissim odio, congue sollicitudin est mattis ac. Vestibulum a dolor lacinia, convallis quam nec, pellentesque tortor. Duis at ipsum lacinia, tempor mi ut, consequat nulla. Donec sagittis felis ac libero laoreet pretium. Sed sit amet quam ipsum</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tristique arcu non velit porttitor, sit amet dapibus augue hendrerit. Ut sit amet molestie tellus. Donec vitae accumsan odio. Proin bibendum, sapien non rutrum facilisis, libero leo cursus sapien, vitae lobortis tortor sapien a lectus. Integer et augue eu lectus condimentum tincidunt. Nullam bibendum, lacus vel eleifend blandit, ipsum arcu maximus est, sed suscipit ligula mi in leo. Fusce eleifend turpis orci, eu accumsan libero porta in. Praesent vel maximus eros. Integer eu ante a urna fermentum tristique. Aenean semper felis vel diam volutpat, at dignissim libero sollicitudin. Cras quis pretium.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tristique arcu non velit porttitor, sit amet dapibus augue hendrerit. Ut sit amet molestie tellus. Donec vitae accumsan odio. Proin bibendum, sapien non rutrum facilisis, libero leo cursus sapien, vitae lobortis tortor sapien a lectus. Integer et augue eu lectus condimentum tincidunt. Nullam bibendum, lacus vel eleifend blandit, ipsum arcu maximus est, sed suscipit ligula mi in leo. Fusce eleifend turpis orci, eu accumsan libero porta in. Praesent vel maximus eros. Integer eu ante a urna fermentum tristique. Aenean semper felis vel diam volutpat, at dignissim libero sollicitudin. Cras quis pretium.</p>
+        <p> <img class="img_flotante alineacion"src="../imagenes/forget-me-not-6009034_1280.png" alt="azul flor" type="imagen/png">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tristique arcu non velit porttitor, sit amet dapibus augue hendrerit. Ut sit amet molestie tellus. Donec vitae accumsan odio. Proin bibendum, sapien non rutrum facilisis, libero leo cursus sapien, vitae lobortis tortor sapien a lectus. Integer et augue eu lectus condimentum tincidunt. Nullam bibendum, lacus vel eleifend blandit, ipsum arcu maximus est, sed suscipit ligula mi in leo. Fusce eleifend turpis orci, eu accumsan libero porta in. Praesent vel maximus eros. Integer eu ante a urna fermentum tristique. Aenean semper felis vel diam volutpat, at dignissim libero sollicitudin. Cras quis pretium.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tristique arcu non velit porttitor, sit amet dapibus augue hendrerit. Ut sit amet molestie tellus. Donec vitae accumsan odio. Proin bibendum, sapien non rutrum facilisis, libero leo cursus sapien, vitae lobortis tortor sapien a lectus. Integer et augue eu lectus condimentum tincidunt. Nullam bibendum, lacus vel eleifend blandit, ipsum arcu maximus est, sed suscipit ligula mi in leo. Fusce eleifend turpis orci, eu accumsan libero porta in. Praesent vel maximus eros. Integer eu ante a urna fermentum tristique. Aenean semper felis vel diam volutpat, at dignissim libero sollicitudin. Cras quis pretium.</p>
+   </section>
+    <section class="fondo_box">
+        <h2>IMAGENES HOVER</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut viverra, mauris a pharetra volutpat, tellus urna gravida nulla, et volutpat nunc erat non orci. Praesent iaculis massa quis congue pharetra. Integer vehicula ultrices elementum. Sed lectus sapien, lobortis sed malesuada ut, vestibulum a dolor. Phasellus diam felis, laoreet vitae est sed, rutrum tincidunt sem. Proin id finibus justo, non consectetur lorem. Pellentesque scelerisque dignissim odio, congue sollicitudin est mattis ac. Vestibulum a dolor lacinia, convallis quam nec, pellentesque tortor. Duis at ipsum lacinia, tempor mi ut, consequat nulla. Donec sagittis felis ac libero laoreet pretium. Sed sit amet quam ipsum</p>
+        <a href="https://www.floreriamagenta.com" target="_blank"><img id="img-enlace" src="../imagenes/flor.png" ></a>
+    </section>
+    <section class="img_filtre">
+        <h2>IMAGEN FILTROS</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tristique arcu non velit porttitor, sit amet dapibus augue hendrerit. Ut sit amet molestie tellus. Donec vitae accumsan odio. Proin bibendum, sapien non rutrum facilisis, libero leo cursus sapien, vitae lobortis tortor sapien a lectus. Integer et augue eu lectus condimentum tincidunt. Nullam bibendum, lacus vel eleifend blandit, ipsum arcu maximus est, sed suscipit ligula mi in leo. Fusce eleifend turpis orci, eu accumsan libero porta in. Praesent vel maximus eros. Integer eu ante a urna fermentum tristique. Aenean semper felis vel diam volutpat, at dignissim libero sollicitudin. Cras quis pretium.</p>
+        <img src="../imagenes/tuan-nguy-n-minh-pGr7g4l8EOI-unsplash.jpg" alt="palmera" type="imagen/jpg">
+        <img id="filter-gray" src="../imagenes/tuan-nguy-n-minh-pGr7g4l8EOI-unsplash.jpg" alt="palmera" type="imagen/jpg">
+        <img id="filter-sepia" src="../imagenes/tuan-nguy-n-minh-pGr7g4l8EOI-unsplash.jpg" alt="palmera" type="imagen/jpg">
+        <img id="filter-brillo" src="../imagenes/tuan-nguy-n-minh-pGr7g4l8EOI-unsplash.jpg" alt="palmera" type="imagen/jpg">
+        <img id="filter-contraste" src="../imagenes/tuan-nguy-n-minh-pGr7g4l8EOI-unsplash.jpg" alt="palmera" type="imagen/jpg">
+        <img id="filter-blur" src="../imagenes/tuan-nguy-n-minh-pGr7g4l8EOI-unsplash.jpg" alt="palmera" type="imagen/jpg">
+        <img id="filter-negativo" src="../imagenes/tuan-nguy-n-minh-pGr7g4l8EOI-unsplash.jpg" alt="palmera" type="imagen/jpg">
+        <img id="filter-saturacion" src="../imagenes/tuan-nguy-n-minh-pGr7g4l8EOI-unsplash.jpg" alt="palmera" type="imagen/jpg">
+        <img id="filter-opacidad" src="../imagenes/tuan-nguy-n-minh-pGr7g4l8EOI-unsplash.jpg" alt="palmera" type="imagen/jpg">
+        <img id="filter-sombra"src="../imagenes/tuan-nguy-n-minh-pGr7g4l8EOI-unsplash.jpg" alt="palmera" type="imagen/jpg">
+        <img id="filter-huerotate"src="../imagenes/tuan-nguy-n-minh-pGr7g4l8EOI-unsplash.jpg" alt="palmera" type="imagen/jpg">
+        <img class="filtros"src="../imagenes/tuan-nguy-n-minh-pGr7g4l8EOI-unsplash.jpg" alt="palmera" type="imagen/jpg">
+        <img id="filter-expocision"src="../imagenes/tuan-nguy-n-minh-pGr7g4l8EOI-unsplash.jpg" alt="palmera" type="imagen/jpg">
+        <img class="filtros-color"src="../imagenes/tuan-nguy-n-minh-pGr7g4l8EOI-unsplash.jpg" alt="palmera" type="imagen/jpg">
+    </section>
+</main>
+<footer>
+    <h6>Elaborado por Diana Laura Peralta</h6>
+</footer>

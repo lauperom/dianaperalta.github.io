@@ -1,0 +1,145 @@
+<html>
+    <head>
+        <title>Enlaces en HTML</title>
+     <link rel="stylesheet" href="../css/style.css" type="text/css">
+        <style type=text/css>
+            *{
+                padding: 0;
+                margin: 0;
+            }
+            header, nav, main, footer{
+                width: 1280;
+                padding: 30px;
+                background-color: #FF69BB;
+                color:#F2F2F2;
+                margin left: auto;
+                margin-right: auto;
+            }
+            nav{
+                background-color: #CCF241;
+                text-align: center;
+            }
+            main{
+                background-color: #FF69BB;
+                 height: auto;
+            }
+            section{
+                width: 900px;
+                height: 500px;
+                background-color:#F2AEE7;
+                margin-bottom: 30px;
+                padding: 30px;
+                margin-left:auto;
+                margin-right:auto;
+            }
+            header, footer{
+                text-align:center;
+            }
+            h1{
+                font-size: 55px;
+                margin-bottom: 20px;
+            }
+            h6{
+                font-size: 18px;
+            }
+            nav ul{
+                text-align: center;
+            }
+            nav ul li{
+                width: 110px;
+                background-color: #F285E0;
+                list-style-type: none;
+                display: inline-block;
+                padding: 10px;
+                text-align: center;
+                margin-left: 0px;
+                margin-right: 10px;
+            }
+            p{
+                margin-top: 20px;
+            }
+            section a:visited, section a:link{
+                color: palevioletred;
+                text-decoration: none;
+            }
+            section a:active{
+                color: white;
+            }
+            section a:hover{
+                color:antiquewhite;
+                font-weight:bold;
+            }
+            nav a:link, nav a:visited{
+                color: #CE9DAB;
+                text-decoration: none;
+            }
+            nav ul li a:hover
+                backgrounp:deeppink;
+            }
+            main nav{
+                width: 600px;
+            }
+            nav img{
+                float: left;
+                margin-top: 5px;
+                margin-right: 0px;
+            }
+        </style>
+</head>
+<body>
+    <header><!--cabeza-->
+        <h1>ENLACES</h1>
+    </header>
+    <nav><!--menú-->
+          <a href="../index.html"><img style="width: 30px" src="../imagenes/pagina-de-inicio.png"></a>
+            <ul>
+            <li><a href="">Formatos</a></li>
+            <li><a href="listas.html">Listas</a></li>
+            <li><a href="enlaces.html">Enlaces</a></li>
+            <li><a href="tablas.html">Tablas</a></li>
+            <li><a href="imagenes.html">Imagenes</a></li>
+            <li><a href="audio.html">Audio</a></li>
+            <li><a href="video.html">Video</a></li>
+            <li><a href="formularios.html">Formularios</a></li> 
+        </ul>
+    </nav>
+    <main>
+         <section> 
+        <h2 id="Externo">Enlace externo </h2><!--Enlaces a otros sitios web-->
+            <p>Lorem ipsum dolor sit <a href="http://www.google.com">GOOGLE</a> amet, consectetur adipiscing elit. Ut viverra, mauris a pharetra volutpat, tellus urna gravida nulla, et volutpat nunc erat non orci. Praesent iaculis massa quis congue pharetra. Integer vehicula ultrices elementum. Sed lectus sapien, lobortis sed malesuada ut, vestibulum a dolor. Phasellus diam felis, laoreet vitae est sed, rutrum tincidunt sem. Proin id finibus justo, non consectetur lorem. Pellentesque scelerisque dignissim odio, congue sollicitudin est mattis ac. Vestibulum a dolor lacinia, convallis <a href="http://www.buap.mx">BENEMERITA AUTONOMA DE PUEBLA</a> quam nec, pellentesque tortor. Duis at ipsum lacinia, tempor mi ut, consequat nulla. Donec sagittis felis ac libero laoreet pretium. Sed sit amet quam ipsum.</p>
+             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus condimentum massa sapien, id dictum tortor pulvinar congue. Aenean porta malesuada quam at vestibulum. Praesent dignissim ligula ut elementum tempor. Ut ullamcorper lacus elit, a hendrerit turpis porta sed. Pellentesque quis pulvinar nunc, et dictum risus. Sed interdum massa quam, quis semper odio consequat eu. Maecenas dignissim tincidunt est, eu bibendum tellus vulputate eget.
+
+Sed bibendum nunc id felis tincidunt tristique non nec justo. Duis id nibh sed leo egestas eleifend id in diam. Duis ac consectetur nibh. Ut facilisis tincidunt eros, at molestie neque sodales ut. In ac faucibus dolor.</p>
+        </section>
+        <section> 
+        <h2 id="Interno">Enlace interno </h2><!--enlaces a otros archivos míos-->
+            <p>Lorem ipsum dolor sit amet, <a href="Listas.html"> Practicas Listas </a>consectetur adipiscing elit. Ut viverra, mauris a pharetra volutpat, tellus urna gravida nulla, et volutpat nunc erat non orci. Praesent iaculis massa quis congue pharetra. Integer vehicula ultrices elementum. Sed lectus sapien, lobortis sed malesuada ut, vestibulum a dolor. Phasellus diam felis, laoreet vitae est sed, rutrum tincidunt sem. Proin id finibus justo, non consectetur lorem. Pellentesque scelerisque dignissim odio, congue sollicitudin est mattis ac. Vestibulum a dolor lacinia, convallis quam nec, pellentesque tortor. Duis at ipsum lacinia, tempor mi ut, consequat nulla. Donec sagittis felis ac libero laoreet pretium. Sed sit amet quam ipsum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus condimentum massa sapien, id dictum tortor pulvinar congue. Aenean porta malesuada quam at vestibulum. Praesent dignissim ligula ut elementum tempor. Ut ullamcorper lacus elit, a hendrerit turpis porta sed. Pellentesque quis pulvinar nunc, et dictum risus. Sed interdum massa quam, quis semper odio consequat eu. Maecenas dignissim tincidunt est, eu bibendum tellus vulputate eget.
+
+Sed bibendum nunc id felis tincidunt tristique non nec justo. Duis id nibh sed leo egestas eleifend id in diam. Duis ac consectetur nibh. Ut facilisis tincidunt eros, at molestie neque sodales ut. In ac faucibus dolor.</p>
+        </section>
+        <section> 
+        <h2 id="email"> Enlace a email </h2><!---correo-->
+            <p>Lorem ipsum dolor sit amet,<a href="mailto:dianaaperalta@live.com.mx">Diana Laura Peralta</a> consectetur adipiscing elit. Ut viverra, mauris a pharetra volutpat, tellus urna gravida nulla, et volutpat nunc erat non orci. Praesent iaculis massa quis congue pharetra. Integer vehicula ultrices elementum. Sed lectus sapien, lobortis sed malesuada ut, vestibulum a dolor. Phasellus diam felis, laoreet vitae est sed, rutrum tincidunt sem. Proin id finibus justo, non consectetur lorem. Pellentesque scelerisque dignissim odio, congue sollicitudin est mattis ac. Vestibulum a dolor lacinia, convallis quam nec, pellentesque tortor. Duis at ipsum lacinia, tempor mi ut, consequat nulla. Donec sagittis felis ac libero laoreet pretium. Sed sit amet quam ipsum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus condimentum massa sapien, id dictum tortor pulvinar congue. Aenean porta malesuada quam at vestibulum. Praesent dignissim ligula ut elementum tempor. Ut ullamcorper lacus elit, a hendrerit turpis porta sed. Pellentesque quis pulvinar nunc, et dictum risus. Sed interdum massa quam, quis semper odio consequat eu. Maecenas dignissim tincidunt est, eu bibendum tellus vulputate eget.
+Sed bibendum nunc id felis tincidunt tristique non nec justo. Duis id nibh sed leo egestas eleifend id in diam. Duis ac consectetur nibh. Ut facilisis tincidunt eros, at molestie neque sodales ut. In ac faucibus dolor.</p>
+        </section>
+        <section> 
+        <h2 id="Descargas">Enlace a descarga de archivo </h2><!--descarga-->
+            <p>Lorem ipsum dolor sit amet, consectetur <a href="LUNES%2010%20FEB/">FOTO</a> adipiscing elit. Ut viverra, mauris a pharetra volutpat, tellus urna gravida nulla, et volutpat nunc erat non orci. Praesent iaculis massa quis congue pharetra. Integer vehicula ultrices elementum. Sed lectus sapien, lobortis sed malesuada ut, vestibulum a dolor. Phasellus diam felis, laoreet vitae est sed, rutrum tincidunt sem. Proin id finibus justo, non consectetur lorem. Pellentesque scelerisque dignissim odio, congue sollicitudin est mattis ac. Vestibulum a dolor lacinia, convallis quam nec, pellentesque tortor. Duis at ipsum lacinia, tempor mi ut, consequat nulla. Donec sagittis felis ac libero laoreet pretium. Sed sit amet quam ipsum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus condimentum massa sapien, id dictum tortor pulvinar congue. Aenean porta malesuada quam at vestibulum. Praesent dignissim ligula ut elementum tempor. Ut ullamcorper lacus elit, a hendrerit turpis porta sed. Pellentesque quis pulvinar nunc, et dictum risus. Sed interdum massa quam, quis semper odio consequat eu. Maecenas dignissim tincidunt est, eu bibendum tellus vulputate eget.Sed bibendum nunc id felis tincidunt tristique non nec justo. Duis id nibh sed leo egestas eleifend id in diam. Duis ac consectetur nibh. Ut facilisis tincidunt eros, at molestie neque sodales ut. In ac faucibus dolor.</p>
+        </section>
+        <nav><!--Posición-->
+           <ul>
+               <li><a href="#Externo">Externo </a></li>
+               <li><a href="#Interno">Interno </a></li>
+               <li><a href="#email">Email </a></li>
+               <li><a href="#Descargas">Descarga </a></li>
+            </ul>
+        </nav>
+    </main>
+    <footer><!--Pie de pagina-->
+        <h6>Elaborado por Diana Laura Peralta</h6>
+    </footer>
+    </body>
+</html>

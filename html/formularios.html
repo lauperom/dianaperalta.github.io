@@ -1,0 +1,106 @@
+<html>
+<head>
+    <title>Formularios en HTML</title>
+     <link rel="stylesheet" href="../css/style.css" type="text/css">
+     <style>
+          nav img{
+                float: left;
+                margin-top: 5px;
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>FORMULARIOS</h1>
+    </header>
+    <nav>
+       <a href="../index.html"><img style="width: 30px" src="../imagenes/pagina-de-inicio.png"></a>
+        <ul>
+            <li><a href="">Formatos</a></li>
+            <li><a href="../html/listas.html">Listas</a></li>
+            <li><a href="../html/tablas.html">Tablas</a></li>
+            <li><a href="../html/enlaces.html">Enlaces</a></li>
+            <li><a href="../html/imagenes.html">Imagenes</a></li>
+            <li><a href="../html/audio.html">Audios</a></li>
+            <li><a href="../html/video.html">Videos</a></li>
+            <li><a href="../html/formularios.html">Formularios</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Formulario: Sing in</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus dolorum aliquam perspiciatis esse, sed ullam. Officiis similique aut temporibus, eius culpa voluptas, magni iure, blanditiis maxime quam harum. Impedit dolores dignissimos unde sequi temporibus amet commodi distinctio iste ipsa corporis ullam ex nulla neque nam, ad illum, molestiae, animi perspiciatis perferendis ipsam obcaecati. Incidunt ipsam eligendi provident consectetur laudantium, deserunt ea doloremque repudiandae tenetur. Nisi iusto omnis sit. Qui totam explicabo ipsum reprehenderit non, ipsam vel rerum? Cumque ipsum fugiat quisquam, asperiores hic nesciunt aliquam enim porro nulla deserunt, esse debitis, quae odio ex ipsa, itaque doloribus laboriosam illum nobis!</p>
+            <form action="" method="get">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" value="">
+                <label for="contrasena">Contraseña</label>
+                <input type="password" id="contrasena" name="contrasena" value="">
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+        <section>
+            <h2>Formulario: Contact</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident unde pariatur perferendis. Magni nam asperiores, debitis cumque cupiditate saepe, voluptas unde illo eos rerum dolor quos. Quae magni commodi eaque est ipsam quisquam adipisci temporibus dolor beatae omnis dignissimos sit iusto totam, rem reiciendis at, exercitationem a ducimus pariatur ad? Cumque, non? Debitis aut saepe odit reiciendis obcaecati atque quasi quia sint vel. Sapiente officia repellat cumque iure, molestias facilis, consequatur nisi cum possimus autem saepe! Veniam praesentium consectetur corporis pariatur voluptatibus illum, aspernatur tenetur, numquam explicabo ea mollitia laudantium molestias reprehenderit qui quo necessitatibus at deleniti, voluptate recusandae amet.</p>
+            <form action="" method="get">
+                <label for="nombre-1">Nombre:</label>
+                <input type="text" id="nombre-1" name:="nombre-1" value="">
+                <label for="email">Email:</label>
+                <input type="email" id="correo" name="correo" value="">
+                <label for="comentario">Comentario:</label>
+                <textarea name="comentario" rows="10" cols="50">
+    Escribe aqui tu comentario...
+                </textarea>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+        <section>
+            <h2>Formularios</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis ut laudantium cum exercitationem sint ullam laboriosam! Laboriosam sed accusamus provident quasi minus veritatis ipsam consequatur nesciunt eum at temporibus praesentium tempore ipsum sint fugiat voluptatem pariatur officia, perspiciatis et rerum omnis maxime impedit. Officiis beatae vero voluptatem enim eligendi dignissimos tenetur doloremque. Mollitia non ducimus laborum exercitationem. Qui dolores nobis praesentium nisi similique totam officia cum explicabo ullam quos quaerat fugiat quis, eum delectus, beatae vitae recusandae earum, eaque quidem! Recusandae quia fuga, dolores consequatur, harum deleniti magni dolorem blanditiis eum perferendis adipisci quaerat nam velit obcaecati, ratione laboriosam nobis.</p>
+            <form action="" method="get">
+                <label for="nombre-2">Nombre:</label>
+                <input type="text" id="nombre-2" name="nombre-2" value="">
+                <label for="genero">Genero:</label>
+                <input type="radio" id="masculino" name="genero" value="masculino">
+                <label for="genero">Masculino</label>
+                <input type="radio" id="femenino" name="genero" value="femenino">
+                <label for="genero">Femenino</label>
+                 <br>
+                <label for="pais">¿De que país nos visitas?</label> 
+                <select id="pais" name="pais">
+                    <option value="alemania">Alemania</option>
+                    <option value="barcelona">Barcelona</option>
+                    <option value="colombia">Colombia</option>
+                    <option value="dianamarca">Dinamarca</option>
+                    <option value="ecuador">Ecuador</option>
+                    <option value="francia">Francia</option>
+                    <option value="grecia">Grecia</option>
+                    <option value="mexico">México</option>
+                </select>
+                <br>
+                <label for="turismo">Razón por la que visitas nuestro país</label>
+                <br>
+                <input type="checkbox" id="turismo-1" name="turismo-1" value="cultura">
+                <label for="turismo-1">Cultura</label>
+                <input type="checkbox" id="turismo-2" name="turismo-2" value="gastronomia">
+                <label for="trusimo-2">Gastronomia</label>
+                <br>
+                <input type="checkbox" id="turismo-3" name="turismo-3" value="ecoturismo">
+                <label for="turismo-3">Ecoturismo</label>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+        <section>
+            <h2>Formularios</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et nam, voluptate debitis minima! Quaerat, exercitationem eum consequuntur non voluptate quidem laudantium odit delectus minus voluptatum ad, magnam pariatur expedita asperiores, quisquam quasi illo velit nesciunt deleniti tenetur excepturi laboriosam cupiditate dignissimos perspiciatis deserunt. Voluptas alias beatae consectetur? Quo ut obcaecati nesciunt quis. Quisquam, molestiae aspernatur repudiandae! Possimus suscipit voluptatum laborum laboriosam provident, tenetur commodi unde minus at odit animi facilis quis, sunt deleniti laudantium quibusdam officiis nam sit qui quasi ad reiciendis vero nostrum! Consectetur magnam, vel similique non dicta recusandae, aspernatur aliquam delectus repellendus veniam, voluptatem praesentium animi assumenda.</p>
+            <form action="" method="get">
+                 <label for="color favorito">Elige tu color favorito:</label>
+                 <input type="color" id="colorfav-1" name="colorfav-1" value="#ff0000">
+                 <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <h6>Elaborado por Diana Laura Peralta</h6>
+    </footer>
+</body>
+</html>
